@@ -6,13 +6,13 @@ import 'package:mobile/model/xpense.dart';
 import 'package:date_formatter/date_formatter.dart';
 
 class DailyXpeneses extends StatelessWidget {
-  DailyXpeneses({ super.key });
+  DailyXpeneses({super.key});
 
   final List<Xpense> _registeredXpenses = [
     Xpense(
       xpenseTitle: 'Oppenheimer',
       xpenseAmountType: XpenseAmountType.debit,
-      xpenseAmount: -666.69,
+      xpenseAmount: 666.69,
       xpenseCategory: XpenseCategory.entertainment,
       xpenseDate: DateFormatter.formatDateTime(
           dateTime: DateTime.now(), outputFormat: 'dd/MM/yyyy'),
@@ -28,7 +28,7 @@ class DailyXpeneses extends StatelessWidget {
     Xpense(
       xpenseTitle: 'Mask N95',
       xpenseAmountType: XpenseAmountType.debit,
-      xpenseAmount: -1024.69,
+      xpenseAmount: 1024.69,
       xpenseCategory: XpenseCategory.health,
       xpenseDate: DateFormatter.formatDateTime(
           dateTime: DateTime.now(), outputFormat: 'dd/MM/yyyy'),
@@ -36,7 +36,7 @@ class DailyXpeneses extends StatelessWidget {
     Xpense(
       xpenseTitle: 'Groceries',
       xpenseAmountType: XpenseAmountType.debit,
-      xpenseAmount: -2034.83,
+      xpenseAmount: 2034.83,
       xpenseCategory: XpenseCategory.personal,
       xpenseDate: DateFormatter.formatDateTime(
           dateTime: DateTime.now(), outputFormat: 'dd/MM/yyyy'),
@@ -44,7 +44,7 @@ class DailyXpeneses extends StatelessWidget {
     Xpense(
       xpenseTitle: 'Udemy Course',
       xpenseAmountType: XpenseAmountType.debit,
-      xpenseAmount: -445.89,
+      xpenseAmount: 445.89,
       xpenseCategory: XpenseCategory.personal,
       xpenseDate: DateFormatter.formatDateTime(
           dateTime: DateTime.now(), outputFormat: 'dd/MM/yyyy'),
@@ -52,7 +52,7 @@ class DailyXpeneses extends StatelessWidget {
     Xpense(
       xpenseTitle: 'Maverick',
       xpenseAmountType: XpenseAmountType.debit,
-      xpenseAmount: -549.69,
+      xpenseAmount: 549.69,
       xpenseCategory: XpenseCategory.entertainment,
       xpenseDate: DateFormatter.formatDateTime(
           dateTime: DateTime.now(), outputFormat: 'dd/MM/yyyy'),

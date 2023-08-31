@@ -39,4 +39,18 @@ class XpenseTheme {
     fontSize: 13,
     color: secondaryColor,
   );
+
+  static const TextStyle debitFont = TextStyle(
+    color: XpenseTheme.errorColor,
+    fontSize: 18,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'JetBrains',
+  );
+
+  static const TextStyle creditFont = TextStyle(
+    color: Colors.green,
+    fontSize: 18,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'JetBrains',
+  );
 }
