@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'package:mobile/widgets/daily_xpenses.dart';
 import 'package:mobile/xpense_theme.dart';
 
 class HomeScreen extends StatelessWidget {
@@ -10,10 +11,7 @@ class HomeScreen extends StatelessWidget {
     return const Scaffold(
       backgroundColor: XpenseTheme.backgroundColor,
       body: Center(
-        child: Text(
-          'Xpense',
-          style: XpenseTheme.primaryHeader,
-        ),
+        child: DailyXpeneses()
       ),
     );
   }

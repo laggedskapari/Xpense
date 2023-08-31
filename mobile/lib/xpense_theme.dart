@@ -6,6 +6,7 @@ class XpenseTheme {
   static const secondaryColor = Color.fromARGB(255, 209, 208, 197);
   static const errorColor = Color.fromARGB(255, 202, 71, 84);
   static const darkBackgroundColor = Color.fromARGB(255, 44, 46, 49);
+
   static const TextStyle headerFont = TextStyle(
     color: primaryColor,
     fontSize: 20,
@@ -27,13 +28,13 @@ class XpenseTheme {
     fontFamily: 'JetBrains',
   );
 
-  final TextStyle mainFont = const TextStyle(
+  static const TextStyle mainFont = TextStyle(
     color: primaryColor,
     fontSize: 13,
     fontFamily: 'JetBrains',
   );
 
-  final TextStyle secondaryFont = const TextStyle(
+  static const TextStyle secondaryFont = TextStyle(
     fontFamily: 'JetBrains',
     fontSize: 13,
     color: secondaryColor,
