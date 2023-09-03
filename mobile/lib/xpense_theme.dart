@@ -40,6 +40,13 @@ class XpenseTheme {
     color: secondaryColor,
   );
 
+  static const TextStyle monthlyFont = TextStyle(
+    fontFamily: 'JetBrains',
+    fontSize: 13,
+    fontWeight: FontWeight.w700,
+    color: secondaryColor,
+  );
+
   static const TextStyle debitFont = TextStyle(
     color: XpenseTheme.errorColor,
     fontSize: 18,

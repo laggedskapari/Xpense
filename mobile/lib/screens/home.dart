@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
 import 'package:mobile/widgets/daily_xpenses.dart';
+import 'package:mobile/widgets/monthly_xpenses.dart';
 import 'package:mobile/xpense_theme.dart';
 import 'package:mobile/widgets/xpense_appbar.dart';
 import 'package:mobile/widgets/utility_bar.dart';
@@ -10,15 +11,15 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       backgroundColor: XpenseTheme.backgroundColor,
-      appBar: const XpenseAppBar(),
+      appBar: XpenseAppBar(),
       body: Column(
         children: [
           Expanded(
-            child: DailyXpeneses(),
+            child: MonthlyXpenses(),
           ),
-          const UtilityBar(),
+          UtilityBar(),
         ],
       ),
     );
