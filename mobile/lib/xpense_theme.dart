@@ -47,6 +47,27 @@ class XpenseTheme {
     color: secondaryColor,
   );
 
+  static const TextStyle yearlyFont = TextStyle(
+    fontFamily: 'JetBrains',
+    fontSize: 11,
+    fontWeight: FontWeight.w700,
+    color: primaryColor,
+  );
+
+  static const TextStyle yearlyDebitFont = TextStyle(
+    color: XpenseTheme.errorColor,
+    fontSize: 11,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'JetBrains',
+  );
+
+  static const TextStyle yearlyCreditFont = TextStyle(
+    color: Colors.green,
+    fontSize: 11,
+    fontWeight: FontWeight.w700,
+    fontFamily: 'JetBrains',
+  );
+
   static const TextStyle debitFont = TextStyle(
     color: XpenseTheme.errorColor,
     fontSize: 18,

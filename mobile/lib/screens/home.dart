@@ -5,6 +5,7 @@ import 'package:mobile/widgets/monthly_xpenses.dart';
 import 'package:mobile/xpense_theme.dart';
 import 'package:mobile/widgets/xpense_appbar.dart';
 import 'package:mobile/widgets/utility_bar.dart';
+import 'package:mobile/widgets/yearly_xpenses.dart';
 
 class HomeScreen extends StatelessWidget {
   const HomeScreen({super.key});
@@ -17,7 +18,7 @@ class HomeScreen extends StatelessWidget {
       body: Column(
         children: [
           Expanded(
-            child: MonthlyXpenses(),
+            child: YearlyXpenses(),
           ),
           UtilityBar(),
         ],
